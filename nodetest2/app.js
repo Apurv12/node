@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 // Database
 var mongo = require('mongoskin');
-var db = mongo.db("mongodb://localhost:27017/nodetest2", {native_parser:true});
+var db = mongo.db("mongodb://10.105.22.57:27017/nodetest2", {native_parser:true});
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
